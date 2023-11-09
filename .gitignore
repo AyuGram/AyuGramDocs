@@ -1,0 +1,7 @@
+# Code editors/IDEs
+.vscode/
+.idea/
+
+# Retype stuff
+.retype/
+retype.manifest

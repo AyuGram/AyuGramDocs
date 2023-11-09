@@ -1,0 +1,13 @@
+input: .
+output: .retype
+url: docs.ayugram.one
+branding:
+  title: AyuGram
+  label: Docs
+links:
+- text: Channel
+  link: https://t.me/ayugram1338
+- text: Forum
+  link: https://t.me/ayugramchat
+footer:
+  copyright: "&copy; Copyright {{ year }} Radolyn Labs. All rights reserved."
