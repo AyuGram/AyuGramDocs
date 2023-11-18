@@ -8,4 +8,4 @@ order: -6
 If you enjoy using **AyuGram** and want to send us a tip, here's how you can do it:
 
 - Using [Boosty](https://boosty.to/alexeyzavar) - any card and PayPal
-- Using cryptocurrency - `TRpbajq38qU8joThgAfKJLyEPbNjzsdPJ1` (Tron + USDT)
+- Using cryptocurrency - `TRpbajq38qU8joThgAfKJLyEPbNjzsdPJ1` (Tron + USDT) or `UQA4i8U8vP3mYUZSV3KqDQEHPwmhninEqCkkKc7BITQ652de` (TON)

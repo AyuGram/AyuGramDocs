@@ -21,7 +21,8 @@ Also, our saving system **automatically** tries to download files before they ex
 *Also, search won't work for deleted messages.*
 
 !!! A bit of technical information
-When you scroll the chat, Telegram loads messages from your cache in batches, 20-50 messages. **AyuGram** hooks into that process, and takes IDs of the last and the first messages, and loads deleted messages between them. There may be many of them - 10, 20, 100, 500, who knows. All these operations performed on UI thread, what makes it cause lags a bit.
+When you scroll the chat, Telegram loads messages from your cache in batches, 20-50 messages. **AyuGram** hooks into that process, and takes IDs of the last and the first messages, and loads deleted messages between them. There may be many of them - 10, 20, 100, 500, who knows. All these operations performed on UI thread, what makes it cause lags a bit. Or explode your phone if there's more than 1k messages.
+
 And, as you understand, there's a little problem - deleted messages between batches are not loaded.
 
 ==- BATCH 1

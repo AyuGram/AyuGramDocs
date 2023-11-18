@@ -5,9 +5,14 @@ order: -1
 
 # Notifications and Pushes
 
-If you compare the battery impact of **AyuGram** and any other legit Telegram client, you'll probably see a **big difference**, like **30%** vs. **5%**.
+If you compare the battery impact of **AyuGram** and any other legit Telegram client, you'll probably see a **difference**, like **30%** vs. **15%**.
 
 > TLDR; download separate build with FCM pushes [here](https://t.me/ayugramfcm) if you have Play Store.
+> 
+> Tho it's worth to mention that these builds may work or not, depending on your ROM and installed GApps/MicroG.
+> Check if this build works fine for you, and if it's not - revert to the original version.
+> 
+> And well, they may contain more bugs than the original version.
 
 Well, it's because of that, *maybe annoying for you*, notification in status bar. It helps **AyuGram** to be in a foreground and receive updates from Telegram server. If you disable it (*not hide, but disable option **AyuGram Push Service***) in the preferences, most likely your system will kill the app. You can read more [here](https://dontkillmyapp.com/) about this problem.
 
@@ -22,3 +27,7 @@ And oh, *actually*, we bypassed both checks. **But you should use another build 
 Talking about package name, we provide **two** different APKs, with different package names. The one with `org.telegram.messenger` that pretends to be a Telegram from **Play Store**, the other one with `org.telegram.messenger.web` that pretends to be a Telegram from the **[official site](https://telegram.org/android)**. We do that to make it possible to keep **AyuGram** and vanilla Telegram on the one device simultaneously.
 
 For example, if you download **AyuGram** with package name `org.telegram.messenger.web`, you'll be able to download a vanilla Telegram from **Play Store** and receive updates for it.
+
+!!! If you still experience high battery usage
+Disable `Keep-Alive Serivce` and/or `Background Connection` in `Notifications and Sounds`. Test it yourself to see if you get more reliable notifications and/or good battery usage.
+!!!
