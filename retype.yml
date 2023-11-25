@@ -9,5 +9,9 @@ links:
   link: https://t.me/ayugram1338
 - text: Forum
   link: https://t.me/ayugramchat
+integrations:
+  plausible:
+    domain: docs.ayugram.one
+    host: plausible.radolyn.com
 footer:
   copyright: "&copy; Copyright {{ year }} Radolyn Labs. All rights reserved."
