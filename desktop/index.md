@@ -9,11 +9,11 @@ order: -4
 
 - Full ghost mode (flexible)
 - Messages history
-- Anti-recall
+- Anti-recall (laggy tho)
 - View expiring messages
 - Font customization
 - Streamer mode
-- Material Design switches
+- Material Design switches with smooth animation
 - Local Telegram Premium
 
 ## Credits

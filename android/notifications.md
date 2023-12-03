@@ -11,6 +11,10 @@ If you compare the battery impact of **AyuGram** and any other legit Telegram cl
 > 
 > Tho it's worth to mention that these builds may work or not, depending on your ROM and installed GApps/MicroG.
 > Check if this build works fine for you, and if it's not - revert to the original version.
+>
+> In my personal experience, it works even better on devices with MicroG.
+> 
+> Some users say that on devices with MIUI `.web` version works bettter.
 > 
 > And well, they may contain more bugs than the original version.
 

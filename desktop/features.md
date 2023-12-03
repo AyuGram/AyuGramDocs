@@ -18,10 +18,6 @@ Let's you change application's icon, just like on **Android**.
 If it doesn't change the taskbar icon when AyuGram is pinned, make sure the created shortcut named `AyuGram.lnk` or `AyuGram Desktop.lnk`.
 !!!
 
-## Show ghost mode toggle
-
-Shows a Ghost Mode toggle in the **tray menu** and **drawer**.
-
 ## Fonts
 
 You can change application fonts here.
@@ -32,7 +28,7 @@ The best thing you can do—*leave Application font as is* and *just change Mono
 
 Simply show a box with confirmation before sending a message.
 
-## Show streamer mode toggles
+## Streamer Mode
 
 Imagine yourself streaming how you play in **Discord**. Lobby, *full of your friends*. And then, you receive a message from your mum, like, *"THE DINNER IS READY MY DEAREST SON LET'S GO EAT"*, and **this message appearing on your screen demonstration**. Funny for your friends, *but maybe not for you*, right?
 

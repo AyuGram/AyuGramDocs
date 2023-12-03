@@ -5,6 +5,10 @@ order: -7
 
 # Useful information
 
+## FPS limit on 90+ displays
+
+if you have a 90+ FPS display with dynamic frequency, it's possible your vendor is blocking FPS at 60 for third party apps, because of which, for example, you might have 90-120 FPS in original Telegram and 60 on AyuGram. If this is the case - use FCM version, preferably the one without `.web` postfix.
+
 ## Deep links
 
 - `tg://ayu/settings` or `tg://ayu/preferences` or `tg://ayu/prefs` - open AyuGram Preferences

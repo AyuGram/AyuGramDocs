@@ -9,6 +9,13 @@ order: -1
 
 **AyuGram** is a Telegram client with a very pleasant features. Moreover, it has **Android** and **Desktop** versions.
 
+!!!WARNING
+It is extremely advanced client. You'll have to spend **a lot** of your time exploring all features.
+If you're not ready to waste your time on tests - better **stick up with another client**.
+
+Also, it consumes a lot of RAM, so if you have a potato phone - don't even try.
+!!!
+
 !!!
 Note that our client **breaks [developer Telegram ToS](https://core.telegram.org/api/terms#1-privacy-amp-security)**, implementing features as:
 - Saving deleted messages and history
