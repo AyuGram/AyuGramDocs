@@ -11,15 +11,26 @@ if you have a 90+ FPS display with dynamic frequency, it's possible your vendor 
 
 ## Deep links
 
-- `tg://ayu/settings` or `tg://ayu/preferences` or `tg://ayu/prefs` - open AyuGram Preferences
-- `tg://ayu/save` or `tg://ayu/saving` - open Mesasge Saving Preferences
-- `tg://ayu/filters` - open filters
-- `tg://ayu/filter/ID` - open filters for ID peer. If you've never encountered it, it won't open
-- `tg://ayu/sync` - open AyuSync Preferences (doesn't work for now)
+- `tg://ayu/settings` or `tg://ayu/preferences` or `tg://ayu/prefs` - open AyuGram Preferences.
+- `tg://ayu/save` or `tg://ayu/saving` - open Mesasge Saving Preferences.
+- `tg://ayu/filters` - open filters.
+- `tg://ayu/filter/ID` - open filters for ID peer. If you've never encountered it, it won't open.
+- `tg://ayu/sync` - open AyuSync Preferences (doesn't work for now).
 
 ## Utility links
 
-- `tg://ayu/push` or `tg://ayu/pushes` - tries to fix notifications by enabling background work and requesting notifications permission
+- `tg://ayu/push` or `tg://ayu/pushes` - tries to fix notifications by enabling background work and requesting notifications permission.
+
+## ??? links
+
+- `tg://ayu`
+- `tg://nya`
+
+## Debug functions
+
+Long tap on a Premium star in AyuGram Preferences.
+
+Don't touch here anything until asked.
 
 ## Open profile by ID (exteraGram feature)
 

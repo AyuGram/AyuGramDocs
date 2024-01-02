@@ -14,7 +14,9 @@ It has it's own **advantages**:
 - Messages won't be affected by any Telegram update, event or action
 - These can be easily synchronized between devices
 
-Also, our saving system **automatically** tries to download files before they expire on the server, **giving more chances to save a media**. It's all stored in `Download/AyuGram/Saved Attachments`. If you see it in a gallery - create file `.nomedia` in this folder manually.
+Also, our saving system **automatically** tries to download files before they expire on the server, **giving more chances to save a media**. It's all stored in `Download/AyuGram/Saved Attachments` by default, *tho you can change it in the **AyuGram Preferences***. If you see it in a gallery - create file `.nomedia` in this folder manually.
+
+Database location - `/data/data/com.radolyn.ayugram/databases/ayu-data*`.
 
 **But it's hard to maintain. Really.** You can be sure that messages will be in an **AyuGram database**, but some of them won't be displayed for a reason how we load them in chats. Also, it may cause potato phones **lag/crash** when loading a big batch of deleted messages. So we suggest using it **if you really need it**.
 
@@ -52,10 +54,6 @@ It won't be changed in the near future, because it performs well in most cases.
 ## Save media
 
 As the title says. Automatically tries to download media after deletion.
-
-## Save formatting
-
-Formatting entities stored as bytes in **AyuGram database**. You can disable it to save some space, loosing formatting in all deleted messages.
 
 ## Save reactions
 

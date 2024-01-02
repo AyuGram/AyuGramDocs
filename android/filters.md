@@ -38,6 +38,10 @@ These are enabled across all channels (and chats if enabled).
 
 Click on **"+"** in the top right corner and select desired chat.
 
+### Excluded filters
+
+You can exclude specific shared filter(s) by clicking on a button next to **"+"**.
+
 ## How to write a filter
 
 All filters are **Java regular expressions**. You need to have knowledge in regex language to write complex expressions.

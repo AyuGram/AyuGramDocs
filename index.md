@@ -38,3 +38,13 @@ Android and Desktop versions are different enough. Check features in the separat
 
 - [Android](/android)
 - [Desktop](/desktop)
+
+## Telegram Chat
+
+Yep, we have it. Join if you want.
+
+[t.me/ayugramchat](https://t.me/ayugramchat)
+
+## Donate
+
+See [dedicated page](/donate).
