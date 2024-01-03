@@ -4,19 +4,53 @@ icon: star
 
 # Features
 
+## Upload speed boost
+
+Decreases delay between uploading file parts & increases buffer size.
+
+Shortly, makes uploading faster.
+
+Implementation taken from Kotatogram.
+
+## Disable similar channels
+
+### Collapse similar channels
+
+Collapses recommendations block by default (upon joining a channel) 
+
+### Hide similar channels tab
+
+Removes similar channels tab from UI.
+
 ## Disable notify delay
 
 *Notification delaying is a Telegram built-in function that delays notifications on the current client instance if you're online from another client.*
 
 You can disable it if you want.
 
-## Customization > Icon Picker
+## Icon Picker
 
-Let's you change application's icon, just like on **Android**.
+Lets you change application's icon, just like on **Android**.
 
 !!! Windows note
 If it doesn't change the taskbar icon when AyuGram is pinned, make sure the created shortcut named `AyuGram.lnk` or `AyuGram Desktop.lnk`.
 !!!
+
+## Hide notification counters
+
+Removes count badges on the folders.
+
+## Hide "All chats" folder
+
+As the title says.
+
+Implementation taken from 64Gram.
+
+## Context Menu Elements
+
+Lets you change AyuGram's menu items.
+
+Choosing "Extended menu" for an option means you'll have to press CTRL or SHIFT when opening context menu to see that.
 
 ## Fonts
 

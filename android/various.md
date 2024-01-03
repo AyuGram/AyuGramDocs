@@ -31,7 +31,3 @@ if you have a 90+ FPS display with dynamic frequency, it's possible your vendor 
 Long tap on a Premium star in AyuGram Preferences.
 
 Don't touch here anything until asked.
-
-## Open profile by ID (exteraGram feature)
-
-Send a link like `tg://user?id=ID` somewhere and click on it. If specified user is in local database (you've seen him before), you'll see a profile. Otherwise, the request to `@tgdb_bot` will be made, and if it's in his database, you'll see a profile.

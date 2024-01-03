@@ -28,6 +28,7 @@ order: -4
 - Voice & round video messages seeking
 - Top center notifications
 - Buttons to read all dialogs
+- Upload speed boost
 - Inline button callback view & copy
 - Streamer mode
 - Material Design switches with smooth animation

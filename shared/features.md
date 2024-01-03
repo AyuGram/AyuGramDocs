@@ -8,12 +8,6 @@ icon: star
 
 Removes coloful background and emojis from replies, quotes and previews.
 
-## Disable similar channels
+## Open profile by ID
 
-### Collapse similar channels
-
-Collapses recommendations block by default (upon joining a channel) 
-
-### Hide similar channels tab
-
-Removes similar channels tab from UI.
+Send a link like `tg://user?id=ID` somewhere and click on it. If specified user is in local database (you've seen him before), you'll see a profile. Otherwise, the request to `@tgdb_bot` will be made, and if it's in the database, you'll see a profile.
