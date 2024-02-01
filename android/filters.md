@@ -13,7 +13,7 @@ Filters **completely** hide messages from your view in chat. They're available i
 Also, if the last message in the dialog is filtered, it's blurred in a dialog list.
 !!!
 
-You can *quickly* add a filter by selecting some text in a message.
+You can *quickly* add a filter to current chat or to global by selecting some text in a message and clicking "Add filter".
 
 ## Hide from blocked users
 

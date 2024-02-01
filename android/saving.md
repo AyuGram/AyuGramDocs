@@ -20,7 +20,7 @@ Database location - `/data/data/com.radolyn.ayugram/databases/ayu-data*`.
 
 **But it's hard to maintain. Really.** You can be sure that messages will be in an **AyuGram database**, but some of them won't be displayed for a reason how we load them in chats. Also, it may cause potato phones **lag/crash** when loading a big batch of deleted messages. So we suggest using it **if you really need it**.
 
-*Also, search won't work for deleted messages.*
+You could use a "View Deleted" option in three dots to see a separate chat with only deleted messages, with ability to search through them.
 
 !!! A bit of technical information
 When you scroll the chat, Telegram loads messages from your cache in batches, 20-50 messages. **AyuGram** hooks into that process, and takes IDs of the last and the first messages, and loads deleted messages between them. There may be many of them - 10, 20, 100, 500, who knows. All these operations performed on UI thread, what makes it cause lags a bit. Or explode your phone if there's more than 1k messages.
