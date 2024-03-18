@@ -50,16 +50,17 @@ All filters are **Java regular expressions**. You need to have knowledge in rege
 
 You can filter out all messages with buttons by looking for a tag `<button>` in a text. It will also contain a link, if it's a link button.
 
-Example text that regular expression will get to process for a post with poll and 2 buttons:
+Also, you can filter messages by its type. The type is written in format of `<type>CONST</type>`, where `CONST` is a constant value from [this](https://github.com/DrKLO/Telegram/blob/d62d2ed5ec2e1c565f771edce40f8340ab085a9b/TMessagesProj/src/main/java/org/telegram/messenger/MessageObject.java#L101) list.
+
+Example text that regular expression will get to process for a text message with 2 buttons:
 
 ```
-Do you like AyuGram?
-🔘 Absolutely yes
-🔘 Sure, why not
-🔘 Yes of couse lol
+How's it going, bro?
 
-<button>Visit channel https://t.me/ayugram1338</button>
-<button>Visit docs https://docs.ayugram.one</button>
+<button>Nice</button>
+<button>Meh</button>
+
+<type>0</type>
 ```
 
 
