@@ -42,6 +42,14 @@ Click on **"+"** in the top right corner and select desired chat.
 
 You can exclude specific shared filter(s) by clicking on a button next to **"+"**.
 
+## Deep link for import
+
+`tg://ayu/filters/import/URL`, where `URL` - URL without protocol.
+
+Example: `tg://ayu/filters/import/dpaste.com/H4EN4D8C4.txt`
+
+For security reasons, deep link works only with `dpaste.com`, `gist.githubusercontent.com` (raw `gist.github.com`), `pastebin.com` & `nekobin.com`.
+
 ## How to write a filter
 
 All filters are **Java regular expressions**. You need to have knowledge in regex language to write complex expressions.
