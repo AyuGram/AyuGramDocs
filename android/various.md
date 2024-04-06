@@ -25,10 +25,11 @@ if you have a 90+ FPS display with dynamic frequency, it's possible your vendor 
 ## Deep links
 
 - `tg://ayu/settings` or `tg://ayu/preferences` or `tg://ayu/prefs` - open AyuGram Preferences.
+- `tg://ayu/db_export` and `tg://ayu/db_import` - export and import AyuGram database.
 - `tg://ayu/save` or `tg://ayu/saving` - open Mesasge Saving Preferences.
 - `tg://ayu/filters` - open filters.
+- `tg://ayu/filters/import/URL` - import filters from the specified URL (without `https://` part)
 - `tg://ayu/filter/ID` - open filters for ID peer. If you've never encountered it, it won't open.
-- `tg://ayu/sync` - open AyuSync Preferences (doesn't work for now).
 
 ## Utility links
 
@@ -45,6 +46,6 @@ They're clickable if it's you who sent the message containing the link, or a dev
 
 ## Debug functions
 
-Long tap on a Premium star in AyuGram Preferences.
+Long tap on the AyuGram logo in the Preferences.
 
 Don't touch here anything until asked.

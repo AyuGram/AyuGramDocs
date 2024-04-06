@@ -53,12 +53,8 @@ It won't be changed in the near future, because it performs well in most cases.
 
 ## Save media
 
-As the title says. Automatically tries to download media after deletion.
+As the title says. Automatically tries to download media after deletion, or creates a copy in `Saved Attachments` if downloaded before.
 
-## Save reactions
-
-Saves basic information about reactions.
-
-## Save in bot dialogs
+## Save in Bot Dialogs
 
 You want it to be **disabled**, since bots often edit/delete messages to make sure you get the best experience.

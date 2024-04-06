@@ -7,7 +7,7 @@ order: -4
 
 ## Features
 
-- Full ghost mode (flexible)
+- Ghost Mode
 - Messages history
 - Anti-recall
 - Ad-free by default
@@ -31,5 +31,6 @@ order: -4
 - Upload speed boost
 - Inline button callback view & copy
 - Streamer mode
+- Message shot
 - Material Design switches with smooth animation
 - Fixed message tails for a group of text/sticker/rounded messages

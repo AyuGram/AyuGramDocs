@@ -4,13 +4,23 @@ icon: star
 
 # Features
 
+## Register URL Scheme (in three dots)
+
+Associates Telegram links to be open in AyuGram Desktop.
+
+## Message Shot
+
+Select a few messages, and on the top bar there will be a "Shot" button.
+
+Allows you to quickly create *screenshots* of messages with desired theming and options.
+
 ## Upload speed boost
 
 Decreases delay between uploading file parts & increases buffer size.
 
 Shortly, makes uploading faster.
 
-Implementation taken from Kotatogram.
+Implementation taken from **Kotatogram**.
 
 ## Disable similar channels
 

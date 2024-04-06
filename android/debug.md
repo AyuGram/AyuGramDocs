@@ -5,9 +5,25 @@ order: -6
 
 # Debug Actions
 
+## Force show download buttons
+
+Shows "Save to Gallery" & "Save to Downloads" buttons on any media.
+
+## Peek online using other accounts
+
+As the title says.
+
+## FCM available
+
+Shows whenever FCM notifications are available for current installation.
+
+## FCM token
+
+As the title says.
+
 ## FCM notifications count
 
-If you have **AyuGram FCM build**, you'll see this row. It lets you make sure that FCM is working.
+Lets you make sure that FCM is working.
 
 ## Enable WAL mode
 

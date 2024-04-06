@@ -16,8 +16,8 @@ If you do, use **AyuGram**.
 
 ## Features
 
-- Full ghost mode (flexible)
-- Messages history (flexible)
+- Ghost Mode
+- Messages History
 - Forward from restricted channels (AyuForward)
 - Message filters (e.g. hide ads, blocked users)
 - No emulator detection

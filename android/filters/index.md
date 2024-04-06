@@ -15,7 +15,7 @@ Also, if the last message in the dialog is filtered, it's blurred in a dialog li
 
 You can *quickly* add a filter to current chat or to global by selecting some text in a message and clicking "Add filter".
 
-## Hide from blocked users
+## Hide from Blocked Users
 
 As the title says, this feature will hide all messages from **blocked users**.
 
@@ -24,13 +24,13 @@ As the title says, this feature will hide all messages from **blocked users**.
 
 *To block a user, go to user's profile > three dots > Block user.*
 
-## Enable shared filters in chats
+## Enable Shared Filters in Chats
 
 As the title says.
 
 ## Filters by chats
 
-### Shared filters
+### Shared Filters
 
 These are enabled across all channels (and chats if enabled).
 
@@ -38,7 +38,7 @@ These are enabled across all channels (and chats if enabled).
 
 Click on **"+"** in the top right corner and select desired chat.
 
-### Excluded filters
+### Excluded Filters
 
 You can exclude specific shared filter(s) by clicking on a button next to **"+"**.
 
