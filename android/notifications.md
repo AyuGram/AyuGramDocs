@@ -15,8 +15,6 @@ If you compare the battery impact of **AyuGram** and any other legit Telegram cl
 > In my personal experience, it works even better on devices with MicroG.
 > 
 > Some users say that on devices with MIUI `.web` version works bettter.
-> 
-> And well, they may contain more bugs than the original version.
 
 Well, it's because of that, *maybe annoying for you*, notification in status bar. It helps **AyuGram** to be in a foreground and receive updates from Telegram server. If you disable it (*not hide, but disable option **AyuGram Push Service***) in the preferences, most likely your system will kill the app. You can read more [here](https://dontkillmyapp.com/) about this problem.
 

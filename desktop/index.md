@@ -8,29 +8,28 @@ order: -4
 ## Features
 
 - Ghost Mode
-- Messages history
-- Anti-recall
-- Ad-free by default
-- No copy & download restrictions by default
+- Messages History
+- Anti-Recall
+- Ad-Free by Default
+- No Copy & Download Restrictions by Default
 - Local Telegram Premium
-- Up to 100 recent stickers
-- Show Peer ID in profile
-- Font customization
-- Application icon picker
-- Useful context menu items & its customization
-- Colorful replies & quotes removal
-- Similiar channels removal
-- Folder notification counters removal
-- "All chats" folder removal
-- Message details with sticker pack author link
-- GIF media controls
-- Service message time
-- Voice & round video messages seeking
-- Top center notifications
-- Buttons to read all dialogs
-- Upload speed boost
-- Inline button callback view & copy
-- Streamer mode
-- Message shot
-- Material Design switches with smooth animation
-- Fixed message tails for a group of text/sticker/rounded messages
+- Up to 100 Recent Stickers
+- Show Peer ID in Profile
+- Mono Font Customization
+- Application Icon Picker
+- Useful Context Menu Items & Its Customization
+- Colorful Replies & Quotes Removal
+- Similar Channels Removal
+- Folder Notification Counters Removal
+- "All Chats" Folder Removal
+- Message Details with Sticker and Emoji Pack Author
+- GIF Media Controls
+- Service Message Time
+- Voice & Round Video Messages Seeking
+- Top Center Notifications
+- Buttons to Read All Dialogs
+- Inline Button Callback View & Copy
+- Streamer Mode
+- Message Shot
+- Material Design Switches with Smooth Animation
+- Fixed Message Tails for a Group of Text/Sticker/Rounded Messages

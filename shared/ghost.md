@@ -61,3 +61,13 @@ Don't use on bad networks, or with a high ping.
 ## Alert Before Opening Story
 
 Show a simple alert before opening any story, suggesting that you enable **Ghost Mode**. If you tap anywhere outside the box, it'll disappear without opening a story.
+
+## Local Telegram Premium
+
+Activates client-side premium features.
+
+It won't increase your [limits](https://limits.tginfo.me/en) on pin amount, caption length, etc.
+
+!!! Android
+You may choose emoji status, quote's & profile's color & icon.
+!!!

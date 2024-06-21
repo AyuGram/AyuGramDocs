@@ -10,30 +10,34 @@ These can't be implemented in **exteraGram** directly, because **exteraSquad** w
 
 ### Which one should I use?
 
-If you don't care about ToS breaking features, use **exteraGram**.
+**AyuGram** shares the same codebase with **exteraGram**.
 
-If you do, use **AyuGram**.
+With **exteraGram** you'll get frequent and fast updates. It's more stable.
 
-## Features
+With **AyuGram** you'll get ToS breaking features, no more.
+
+## Main Features
 
 - Ghost Mode
 - Messages History
-- Forward from restricted channels (AyuForward)
-- Message filters (e.g. hide ads, blocked users)
-- No emulator detection
-- No Telegram ads & proxy sponsor
-- Keep in cache chats where you were banned/kicked
-- Built with official keys
-- Screenshots in secret chats
-- Expire button for TTL photos/videos
+- Message Filters (Hide Ads & Blocked Users)
+- Forward from Restricted Channels (AyuForward)
 - Local Telegram Premium
 
+## Small Things
+
+- Built with Official Keys
+- Removed Telegram Ads & Proxy Sponsor
+- Screenshots in Secret Chats & for Secret Media
+- Expire Button for Expiring Photos and Videos
+- Banned or Kicked out Chats are Kept in Cache
+
 Note that we use **Crashlytics**.
-If you don't want to send crash reports, you can disable it in **exteraGram Preferences**.
+If you don't want to send crash reports or participate in analytics, you can disable it in **exteraGram Preferences**.
 
 ## Localization
 
-We have our own **[Crowdin](https://crowdin.com/project/ayugram)**.
+We have our own **[Crowdin](https://translate.ayugram.one)**.
 
 But since **AyuGram** is based on **exteraGram**, also join their project
 at **[Crowdin](https://crowdin.com/project/exteralocales)**!

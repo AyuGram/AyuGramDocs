@@ -28,6 +28,7 @@ When you scroll the chat, Telegram loads messages from your cache in batches, 20
 And, as you understand, there's a little problem - deleted messages between batches are not loaded.
 
 ==- BATCH 1
+
 ID 1
 
 ID 2
@@ -40,6 +41,7 @@ ID 20
 **some deleted message that won't be loaded, e. g. ID 21**
 
 ==- BATCH 2
+
 ID 22
 
 ID 23
@@ -51,7 +53,7 @@ ID 23
 It won't be changed in the near future, because it performs well in most cases.
 !!!
 
-## Save media
+## Save Media
 
 As the title says. Automatically tries to download media after deletion, or creates a copy in `Saved Attachments` if downloaded before.
 

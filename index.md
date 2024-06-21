@@ -25,7 +25,7 @@ Note that our client **breaks [developer Telegram ToS](https://core.telegram.org
 
 ***AyuGram** pretends to be an official application to Telegram. If you look at the list of sessions, you'll see yourself using a **regular** Telegram rather than AyuGram.
 Generally, developer ToS apply only to developers, by restricting their application keys. But since we're using official ones, Telegram can't block our client. And since it's applied only to developers, they can't ban you, except if you're doing bad things that violate [user ToS](https://telegram.org/tos).
-But as we've seen a lot of times, the Telegram team likes to change rules without warnings.*
+But as we've seen a lot of times, the Telegram team likes to change rules without notifying.*
 
 So, we just have to say that:
 
