@@ -5,46 +5,42 @@ order: -1
 
 # AyuGram
 
-*The best that could be in the world of Telegram clients.*
+*Лучшее, что может быть в мире клиентов Telegram.*
 
-**AyuGram** is a Telegram client with a very pleasant features. Moreover, it has **Android** and **Desktop** versions.
+**AyuGram** — это клиент Telegram с крайне полезными функциями. Более того, у него есть версии для **Android** и **Desktop**.
 
 !!!WARNING
-It is extremely advanced client. You'll have to spend **a lot** of your time exploring all features.
-If you're not ready to waste your time on tests - better **stick up with another client**.
+Это чрезвычайно продвинутый клиент. Вам придется потратить **много** времени, чтобы изучить все его возможности. Если вы не готовы тратить время на тесты - лучше **остановиться на другом клиенте**.
 
-Also, it consumes a lot of RAM, so if you have a potato phone - don't even try.
+Кроме того, он требует много оперативной памяти, так что, если у вас слабый телефон - даже не скачивайте.
 !!!
 
 !!!
-Note that our client **breaks [developer Telegram ToS](https://core.telegram.org/api/terms#1-privacy-amp-security)**, implementing features as:
-- Saving deleted messages and history
-- Ghost Mode
-- Seeing self-destructing messages after expiring
-- Message filters
+Обратите внимание, что наш клиент **нарушает [Telegram ToS для разработчиков](https://core.telegram.org/api/terms#1-privacy-amp-security)**, реализуя такие функции, как:
+- Сохранение удаленных сообщений и истории
+-	Режим призрака
+-	Просмотр самоуничтожающихся сообщений после истечения их срока действия
+-	Фильтры сообщений
 
-***AyuGram** pretends to be an official application to Telegram. If you look at the list of sessions, you'll see yourself using a **regular** Telegram rather than AyuGram.
-Generally, developer ToS apply only to developers, by restricting their application keys. But since we're using official ones, Telegram can't block our client. And since it's applied only to developers, they can't ban you, except if you're doing bad things that violate [user ToS](https://telegram.org/tos).
-But as we've seen a lot of times, the Telegram team likes to change rules without notifying.*
+***AyuGram** притворяется официальным приложением Telegram. Если вы посмотрите на список сессий, то увидите, что вы используете **обычный** Telegram, а не AyuGram. Обычно ToS для разработчиков применяются только к разработчикам, ограничивая их ключи приложений. Но поскольку мы используем официальные, Telegram не может заблокировать наш клиент. И поскольку он распространяется только на разработчиков, они не могут забанить вас, за исключением случаев, когда вы делаете плохие вещи, нарушающие [пользовательский ToS](https://telegram.org/tos). Но, как мы уже неоднократно видели, команда Telegram любит менять правила без предупреждения.*
 
-So, we just have to say that:
+Поэтому мы просто вынуждены сказать следующее:
 
-> **We are not responsible for the possible blocking of your account. Use the client at your own risk.**
+>**Мы не несем ответственности за возможную блокировку вашего аккаунта. Используйте клиент на свой страх и риск.**
 !!!
 
-## Features
-
-Android and Desktop versions are different enough. Check features in the separate pages:
+## Функции
+Версии для Android и ПК достаточно сильно отличаются. Ознакомьтесь с возможностями на отдельных страницах:
 
 - [Android](/android)
-- [Desktop](/desktop)
+- [ПК](/desktop)
 
-## Telegram Chat
+## Чат Telegram
 
-Yep, we have it. Join if you want.
+Ага, он у нас есть. Присоединяйтесь, если хотите.
 
 [t.me/ayugramchat](https://t.me/ayugramchat)
 
-## Donate
+## Донат
 
-See [dedicated page](/donate).
+Деньги [сюда](/donate).
