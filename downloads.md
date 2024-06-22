@@ -3,12 +3,12 @@ icon: download
 order: -2
 ---
 
-# Downloads
+# Скачать
 
-The easiest way to download AyuGram is to go to our chat and select a dedicated topic:
+Самый простой способ скачать AyuGram - зайти в наш чат и выбрать нужную тему:
 
 - [Android](https://t.me/ayugramchat/1238)
-- [Desktop (Windows)](https://t.me/ayugramchat/12788)
-- [Desktop (Arch Linux)](https://aur.archlinux.org/packages?O=0&K=ayugram) - choose wisely and check the sources.
+- [ПК (Windows)](https://t.me/ayugramchat/12788)
+- [ПК (Arch Linux)](https://aur.archlinux.org/packages?O=0&K=ayugram) - выбирайте с умом и проверяйте исходники.
 
-Linux users have to compile it manually.
+Пользователям Linux придется компилировать его вручную.
