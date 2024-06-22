@@ -3,31 +3,29 @@ icon: database
 order: -2
 ---
 
-# Message Saving
+# Сохранение сообщений
+По сравнению с *Telegraher* или *Ninjagram*, у нас самая **"настоящая"** система сохранения.
 
-Compared to *Telegraher* or *Ninjagram*, we have the most **"true"** saving system.
+Пока они хранят сообщения во *встроенной базе данных Telegram*, возможно, в кэше, мы используем **свою собственную**, работающую на базе Android Room.
 
-While those keep messages in *Telegram's built-in database*, probably in cache, we use **our own**, powered by Android Room.
+У нее есть свои **преимущества**:
+-	Вы можете очистить кэш отдельно от удаленных сообщений/истории
+-	Сообщения не будут затронуты никакими обновлениями, событиями или действиями Telegram
+-	Их можно легко синхронизировать на разных устройствах.
 
-It has it's own **advantages**:
-- You can clear cache separately from deleted messages / history
-- Messages won't be affected by any Telegram update, event or action
-- These can be easily synchronized between devices
+Кроме того, наша система сохранения **автоматически** пробует скачать файлы до того, как они исчезнут на сервере, **что дает больше шансов сохранить медиа**. По умолчанию они хранятся в папке `Download/AyuGram/Saved Attachments`, *но вы можете изменить её в настройках **AyuGram***. Если вы видите их в галерее - создайте файл `.nomedia` в этой папке вручную.
 
-Also, our saving system **automatically** tries to download files before they expire on the server, **giving more chances to save a media**. It's all stored in `Download/AyuGram/Saved Attachments` by default, *tho you can change it in the **AyuGram Preferences***. If you see it in a gallery - create file `.nomedia` in this folder manually.
+Расположение базы данных - `/data/data/com.radolyn.ayugram/databases/ayu-data*`.
 
-Database location - `/data/data/com.radolyn.ayugram/databases/ayu-data*`.
+**Но такую систему сложно поддерживать. Серьезно.** Вы можете быть уверены, что сообщения будут в **базе данных AyuGram**, но некоторые из них не будут отображаться из-за их способа загрузки в чатах. Кроме того, при загрузке большой группы удаленных сообщений может произойти **лаг/вылет** на слабом телефоне. Поэтому используйте функцию, **если она вам действительно нужна**.
+Вы можете использовать опцию "Просмотреть удаленные", нажав на три точки, чтобы увидеть отдельный чат только с удаленными сообщениями, с возможностью поиска по ним.
 
-**But it's hard to maintain. Really.** You can be sure that messages will be in an **AyuGram database**, but some of them won't be displayed for a reason how we load them in chats. Also, it may cause potato phones **lag/crash** when loading a big batch of deleted messages. So we suggest using it **if you really need it**.
+!!! Немного технической информации
+Когда вы пролистываете чат, Telegram загружает сообщения из вашего кэша группами, по 20-50 сообщений. **AyuGram** подключается к этому процессу и берет идентификаторы последнего и первого сообщений, а между ними загружает удаленные сообщения. Их может быть много - 10, 20, 100, 500, кто знает. Все эти операции выполняются в UI-потоке, что может привести к небольшим лагам. Или взорвет ваш телефон, если сообщений будет больше 1 тыс.
 
-You could use a "View Deleted" option in three dots to see a separate chat with only deleted messages, with ability to search through them.
+И, как вы понимаете, есть небольшая проблема - удаленные сообщения между группами не загружаются.
 
-!!! A bit of technical information
-When you scroll the chat, Telegram loads messages from your cache in batches, 20-50 messages. **AyuGram** hooks into that process, and takes IDs of the last and the first messages, and loads deleted messages between them. There may be many of them - 10, 20, 100, 500, who knows. All these operations performed on UI thread, what makes it cause lags a bit. Or explode your phone if there's more than 1k messages.
-
-And, as you understand, there's a little problem - deleted messages between batches are not loaded.
-
-==- BATCH 1
+==- ГРУППА 1
 
 ID 1
 
@@ -38,9 +36,9 @@ ID 2
 ID 20
 ===
 
-**some deleted message that won't be loaded, e. g. ID 21**
+**Какое-то удаленное сообщение, которое не будет загружено, например ID 21**
 
-==- BATCH 2
+==- ГРУППА 2
 
 ID 22
 
@@ -50,13 +48,11 @@ ID 23
 
 ===
 
-It won't be changed in the near future, because it performs well in most cases.
+В ближайшее время эта функция не будет изменена, так как в большинстве случаев она работает хорошо.
 !!!
 
-## Save Media
+## Сохранение медиа
+Буквально. Автоматически пробует загрузить медиафайл после удаления, или создает копию в `Saved Attachments`, если он был загружен ранее.
 
-As the title says. Automatically tries to download media after deletion, or creates a copy in `Saved Attachments` if downloaded before.
-
-## Save in Bot Dialogs
-
-You want it to be **disabled**, since bots often edit/delete messages to make sure you get the best experience.
+##Сохранение в диалогах с ботами
+Лучше **отключить** эту функцию, так как боты часто редактируют/удаляют сообщения во время своей работы.
