@@ -3,33 +3,33 @@ icon: bell
 order: -1
 ---
 
-# Notifications and Pushes
+# Уведомления и Пуши
 
-If you compare the battery impact of **AyuGram** and any other legit Telegram client, you'll probably see a **difference**, like **30%** vs. **15%**.
+Если вы сравните влияние на батарею **AyuGram** и любого другого легального клиента Telegram, вы, вероятно, увидите **разницу**, по типу **30%** против **15%**.
 
-> TLDR; download separate build with FCM pushes [here](https://t.me/ayugramfcm) if you have Play Store.
+> Скачайте отдельную сборку с пушами FCM [здесь](https://t.me/ayugramfcm), если у вас есть Play Store.
 > 
-> Tho it's worth to mention that these builds may work or not, depending on your ROM and installed GApps/MicroG.
-> Check if this build works fine for you, and if it's not - revert to the original version.
+> Но стоит отметить, что эти сборки могут не работать, в зависимости от вашей прошивки и установленных сервисов Google/MicroG.
+> Проверьте, работает ли эта сборка у вас, а если нет - вернитесь к оригинальной версии.
 >
-> In my personal experience, it works even better on devices with MicroG.
+> По моему личному опыту, она работает даже лучше на устройствах с MicroG.
 > 
-> Some users say that on devices with MIUI `.web` version works bettter.
+> Некоторые пользователи говорят, что на устройствах с MIUI `.web` версия работает лучше.
 
-Well, it's because of that, *maybe annoying for you*, notification in status bar. It helps **AyuGram** to be in a foreground and receive updates from Telegram server. If you disable it (*not hide, but disable option **AyuGram Push Service***) in the preferences, most likely your system will kill the app. You can read more [here](https://dontkillmyapp.com/) about this problem.
+Что ж, это из-за *того надоедливого* уведомления со смайликом в статус баре. Оно помогает **AyuGram** работать в фоне и получать обновления с сервера Telegram. Если вы отключите его (не скроете, а именно отключите опцию **AyuGram Push Service**) в настройках, скорее всего, ваша система убьет приложение. Подробнее об этой проблеме вы можете прочитать [здесь](https://dontkillmyapp.com/).
 
-You'd ask, like *if other clients receive that pushes without working in the foreground, why can't **AyuGram** do like that?*
+Вы спросите: *если другие клиенты получают пуши, не работая в фоне, то почему **AyuGram** не может так делать?*
 
-There's a specific reason for that - **Firebase Cloud Messaging**. This is a service that keeps a background connection to **Google services** and receives updates from it, even if the app is closed. But it should be configured properly to work. You should have access to Telegram's application developer page, and provide keys for FCM to work properly. *But hey, you didn't forget that we're using official keys and can't access it?*
+Всему виной **Firebase Cloud Messaging**. Это служба, которая поддерживает фоновое соединение со **службами Google** и получает от них обновления, даже если приложение закрыто. Но его работа требует правильной настройки. Для этого нужно иметь доступ к странице разрабочика приложения Telegram и предоставить ключи для работы FCM. *Но вы же не забыли, что мы используем официальные ключи и не можем получить к нему доступ?*
 
-FCM has some kind of **app verification** that requests a token for receiving pushes. In short, it verifies a **signature** and **package name**.
+В FCM есть что-то вроде **проверки приложения**, которое запрашивает токен для получения пушей. Короче говоря, он проверяет **подпись** и **имя пакета**.
 
-And oh, *actually*, we bypassed both checks. **But you should use another build of AyuGram**, with the original package name.
+И *на самом деле*, мы обошли обе проверки. **Но вы должны использовать другую сборку AyuGram**, с оригинальным именем пакета.
 
-Talking about package name, we provide **two** different APKs, with different package names. The one with `org.telegram.messenger` that pretends to be a Telegram from **Play Store**, the other one with `org.telegram.messenger.web` that pretends to be a Telegram from the **[official site](https://telegram.org/android)**. We do that to make it possible to keep **AyuGram** and vanilla Telegram on the one device simultaneously.
+Говоря об имени пакета, есть **два** разных APK с разными именами пакетов. Первый — `org.telegram.messenge`, который выдает себя за Telegram из **Play Store**, второй — `org.telegram.messenger.web`, который выдает себя за Telegram с **[официального сайта](https://telegram.org/android)**. Это сделано для того, чтобы можно было одновременно установить **AyuGram** и ванильный Telegram на одно устройство.
 
-For example, if you download **AyuGram** with package name `org.telegram.messenger.web`, you'll be able to download a vanilla Telegram from **Play Store** and receive updates for it.
+Например, если вы скачаете **AyuGram** с именем пакета `org.telegram.messenger.web`, вы сможете загрузить ванильный Telegram из **Play Store** и получать для него обновления.
 
-!!! If you still experience high battery usage
-Disable `Keep-Alive Serivce` and/or `Background Connection` in `Notifications and Sounds`. Test it yourself to see if you get more reliable notifications and/or good battery usage.
+!!! Если расход батареи по-прежнему высокий
+Отключите `Перезапуск при закрытии` и/или `Фоновое соединение` в разделе Уведомления и звуки. Перепроверьте, нормально ли приходят уведомления и/или тратится заряд батареи.
 !!!
