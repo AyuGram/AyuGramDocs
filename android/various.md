@@ -3,49 +3,48 @@ icon: flame
 order: -7
 ---
 
-# Useful information
+# Полезная информация
+## Модули XPosed
 
-## XPosed modules
+Не используйте модули XPosed, такие как TGHooks, Re-Telegram и т.п., потому что они конфликтуют со встроенным функционалом и не дают ничего нового.
 
-Don't use XPosed modules such as TGHooks, Re-Telegram and others, because they're conflicting with built-in functionality, and don't introduce new features.
+-	Включение `anti-recall` приведет к конфликту с той же функцией в настройках AyuGram 
+- Включение обхода `noforwards` приведет к поломке AyuForward
+- Включение Фейк Премиума даст тот же результат, что и Локальный Премиум в AyuGram
+- Отключение `FLAG_SECURE` приведет к конфликту с "Показывать Содержимое в Недавних Приложениях"
+- Отключение рекламы приведет к полному отключению запросов рекламы, что необычно для клиента
+- Такие функции, как "Скрыть истории", "Системный шрифт", "Отключить «Перейти в новый канал»" и т.д. являются частью exteraGram, поэтому они тоже бесполезны в модулях
 
-- Enabling anti-recall will lead to conflicts with the same function in AyuGram Preferences
-- Enabling `noforwards` bypass will lead to AyuForward not working
-- Enabling Fake Premium will give you the same results as AyuGram's Local Premium
-- Disabling `FLAG_SECURE` will lead to a conflict with "Show App Content in Task Switcher"
-- Disabling ads will lead to not requesting ads at all, which is not standard client behavior
-- Functions as "Hide Stories", "Use System Font", "Disable Channel Switching", etc. are part of exteraGram, so they're useless in modules too
+В принципе, модули XPosed бесполезны с AyuGram. Ну, может быть, кроме TMoe - там есть несколько полезных функций.
 
-Basically, XPosed modules are useless with AyuGram. Well, maybe except TMoe - it has some usable features.
+## Ограничение FPS на дисплеях 90+
 
-## FPS limit on 90+ displays
+Если у вас 90+ FPS дисплей с динамической частотой, возможно, ваш производитель блокирует FPS на уровне 60 для сторонних приложений, из-за чего, например, в оригинальном Telegram у вас может быть 90-120 FPS, а в AyuGram - 60. Если это так - используйте версию FCM, желательно без постфикса .web.
 
-if you have a 90+ FPS display with dynamic frequency, it's possible your vendor is blocking FPS at 60 for third party apps, because of which, for example, you might have 90-120 FPS in original Telegram and 60 on AyuGram. If this is the case - use FCM version, preferably the one without `.web` postfix.
+## Диплинки
 
-## Deep links
+-	`tg://ayu/settings` или `tg://ayu/preferences` или `tg://ayu/prefs` - открыть настройки AyuGram.
+-	`tg://ayu/db_expor` и `tg://ayu/db_import` - экспорт и импорт базы данных AyuGram.
+-	`tg://ayu/save` или `tg://ayu/saving` - открыть настройки сохранения сообщений.
+-	`tg://ayu/filters` - открыть фильтры.
+-	`tg://ayu/filters/import/URL` – импорт фильтров из указанного URL (без `https://`)
+-	`tg://ayu/filter/ID` – открыть фильтры с ID чата. Если вы не встречали его, он не откроется.
 
-- `tg://ayu/settings` or `tg://ayu/preferences` or `tg://ayu/prefs` - open AyuGram Preferences.
-- `tg://ayu/db_export` and `tg://ayu/db_import` - export and import AyuGram database.
-- `tg://ayu/save` or `tg://ayu/saving` - open Mesasge Saving Preferences.
-- `tg://ayu/filters` - open filters.
-- `tg://ayu/filters/import/URL` - import filters from the specified URL (without `https://` part)
-- `tg://ayu/filter/ID` - open filters for ID peer. If you've never encountered it, it won't open.
+## Ссылки утилит
 
-## Utility links
+Обратите внимание, что начиная со сборки 20240201 эти ссылки не будут кликабельными, если их отправит какой-нибудь случайный человек.
 
-Please note that starting with 20240201 build, these links won't be clickable if they're sent by some random person.
+Они будут кликабельны, если сообщение, содержащее ссылку, отправили вы или разработчик.
 
-They're clickable if it's you who sent the message containing the link, or a developer.
+-	`tg://ayu/push` или `tg://ayu/pushes` - пытается исправить уведомления, включив фоновую работу и запросив разрешение на уведомления.
 
-- `tg://ayu/push` or `tg://ayu/pushes` - tries to fix notifications by enabling background work and requesting notifications permission.
+## ??? ссылки
 
-## ??? links
+-	tg://ayu
+-	tg://nya
 
-- `tg://ayu`
-- `tg://nya`
+## Функции отладки
 
-## Debug functions
+Зажать логотип AyuGram в Настройках.
 
-Long tap on the AyuGram logo in the Preferences.
-
-Don't touch here anything until asked.
+Не трогайте здесь ничего, если вас не просят.
