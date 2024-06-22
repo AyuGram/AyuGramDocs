@@ -2,13 +2,13 @@
 icon: star
 ---
 
-# Features
+# Особенности
 
-## Disable colorful replies (ex. "Simple quotes & replies")
+## Отключить цветные ответы (бывш. "Простые цитаты и ответы")
 
-Removes coloful background and emojis from replies, quotes and previews.
+Удаляет цветной фон и эмодзи из ответов, цитат и превью.
 
-## Open profile by ID
+## Открыть профиль по ID
 
-Send a link like `tg://user?id=ID` somewhere and click on it. If specified user is in local database (you've seen him before), you'll see a profile.
-Otherwise, the request to `@tgdb_bot` will be made, and if it's in the database, you'll see a profile.
+Отправьте ссылку типа `tg://user?id=ID` куда-нибудь и нажмите на неё. Если указанный пользователь есть в локальной базе данных (вы его уже видели), то откроется профиль.
+В противном случае будет сделан запрос к `@tgdb_bot`, и если он есть в базе, то откроется профиль.
