@@ -3,19 +3,20 @@ icon: eye
 order: -5
 ---
 
-# Peek Online
+# Подсмотреть онлайн
 
-This function allows you to get user's last online **under certain circumstances**. Can be found in **three dots**.
+Эта функция позволяет **при определенных условиях** получить последний онлайн пользователя. Для использования нажмите на **три точки**.
 
-Let's look at some examples.
+Давайте рассмотрим несколько примеров.
 
-1. You're **hiding** your online, and the person you want to check - **not**. In this case, **AyuGram** adds the person to the exclusions list, gets online and removes him back.
-2. The person you want to check **hides** his online, but it has one of your accounts on the **exclusions list**. In this case, **AyuGram** gets online from the excluded account.
+1.	Вы **скрыли** свой онлайн, а человек, которого вы хотите проверить - **нет**. В этом случае **AyuGram** добавляет человека в список исключений, получает онлайн и удаляет его из списка исключений.
 
-In the 2 option, **AyuGram** will try to add person to the excluded/included list on all accounts.
+2.	Человек, которого вы хотите проверить, **скрыл** свой онлайн, но один из ваших аккаунтов у него в **списке исключений**. В этом случае **AyuGram** проверяет онлайн с исключенного аккаунта.
+	
+Во втором варианте **AyuGram** попытается добавить человека в список исключенных на каждом аккаунте.
 
-If your other accoutns haven't ever seen the user you're trying to peek on, he should have a username to make it possible get his profile.
+Чтобы подсмотреть онлайн пользователя, которого не видели другие ваши аккаунты, у него должен быть юзернейм.
 
 !!!
-Don't spam the button. This function makes a lot of requests in the 2 option.
+Не спамьте кнопкой. Эта функция делает много запросов во 2 варианте.
 !!!
