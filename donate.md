@@ -3,14 +3,14 @@ icon: credit-card
 order: -6
 ---
 
-# Donate
+# Донат
 
-Enjoy using **AyuGram**? Consider sending us a tip!
+Нравится использовать AyuGram? Не забудьте отправить нам пожертвование!
 
-Here's how you can do it:
+Вот как вы можете это сделать:
 
-- Using [Boosty](https://boosty.to/alexeyzavar) - any card and PayPal
-- Using cryptocurrency:
+- Используя [Boosty](https://boosty.to/alexeyzavar) - любая карта и  PayPal
+- Используя криптовалюты:
   -  `TRpbajq38qU8joThgAfKJLyEPbNjzsdPJ1` (Tron + USDT)
   -  `UQA4i8U8vP3mYUZSV3KqDQEHPwmhninEqCkkKc7BITQ652de` (TON)
   -  `bc1qdk6qq4mzq5yap3fpy0qau3246w3m3uwac9f0xd` (BTC)
