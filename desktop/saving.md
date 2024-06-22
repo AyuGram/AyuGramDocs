@@ -2,8 +2,8 @@
 icon: database
 ---
 
-# Message Saving
+# Сохранение сообщений
 
-At the moment, a Desktop version of AyuGram saves deleted messages in a **memory**. It means they'll disappear after you restart the client.
+На данный момент в ПК версии AyuGram удаленные сообщения сохраняются в **памяти**. Это означает, что они исчезнут после перезапуска клиента.
 
-As for edits history, it's stored in `tdata/ayudata.db`, so you'll be able to view history even **after restarting the client**.
+Что касается истории правок, то она хранится в `tdata/ayudata.db`, так что вы сможете просмотреть ее даже **после перезапуска клиента**.
