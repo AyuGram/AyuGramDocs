@@ -2,72 +2,72 @@
 icon: eye-closed
 ---
 
-# Ghost Mode
+# Режим призрака
 
-This feature available on both Android and Desktop.
+Эта функция доступна как на Android, так и на ПК.
 
-## Don't Read Messages
+## Не читать сообщения
 
-This feature won't show the person you're talking to that you've read their message.
+Эта функция не покажет собеседнику, что вы прочитали его сообщение.
 
-Listening/viewing to the voice/video message won't mark it as read too, *except when you use Telegram Premium's speech-to-text.*
+Прослушивание/просмотр голосового/видеосообщения также не отметит его как прочитанное, *за исключением случаев, когда вы используете функцию преобразования речи в текст в Telegram Premium.*
 
-## Don't Read Stories
+## Не читать истории
 
-Same as the previous, but for stories.
+То же самое, что и в предыдущем случае, но для историй.
 
-*The story will be marked as viewed if you somehow react to it—send a reaction, reply, etc.—it's a server-side limitation.*
+*История будет отмечена как просмотренная, если вы как-то отреагируете на нее: отправите реакцию, ответ и т. д. — это серверное ограничение.*
 
-## Don't Send Online
+## Не отправлять «онлайн»
 
-If you enable this, you won't go online if you open the client.
+Если вы включите эту опцию, вы не будете отображаться онлайн, если откроете клиент.
 
-*Notably, if you do any sus action as sending a message, you'll go online. It's a server-side limitation.*
+*Стоит помнить, что вы отобразитесь онлайн, если выполните любое действие, вроде отправки сообщения. Это серверное ограничение.*
 
-## Don't Send Typing
+## Не отправлять «печатает»
 
-Disables any typing activity, such as:
-- "typing..."
-- "choosing a sticker"
-- "playing a game"
+Отключает любые действия по набору текста, например:
+-	"печатает..."
+-	"выбирает стикера"
+-	"играет в игру"
 
-*...and others, if any.*
+*...и другие, если таковые имеются.*
 
-## Go Offline Automatically
+## Автоматический «офлайн»
 
-Simply puts you offline after blinking online.
+Просто переводит вас в автономный режим после появления онлайн.
 
 !!!warning
-Be cautious. If you decide to open any other Telegram client with this feature turned on, you'll get an online blinking effect, where **AyuGram** tries to put you **offline**, and the **other client** trying to put you **online**.
+Будьте осторожны. Если вы решите открыть любой другой клиент Telegram с включенной функцией, вы получите эффект мигания онлайна, когда **AyuGram** пытается перевести вас в **офлайн**, а **другой клиент** пытается перевести вас в **онлайн**.
 !!!
 
-## Read on Interact
+## Читать при действиях
 
-If you don't want others to know you're using a **Ghost Mode**, you can enable this option to read messages after certain actions and appear online for a second.
+Если вы не хотите, чтобы другие знали, что вы используете **Режим Призрака**, вы можете включить эту опцию, чтобы читать сообщения после определенных действий и на секунду появляться в сети.
 
-## Schedule Messages
+## Использовать отложку
 
-Allows you to send messages without appearing online by using scheduled messages. Works only if a full **Ghost Mode** is active.
+Позволяет отправлять сообщения, не появляясь в сети, с помощью отложенных сообщений. Работает только в том случае, если активен полный **Режим Призрака**.
 
-It simply delays sending your message for some time.
+Просто задерживает отправку сообщения на некоторое время.
 
-- For simple text messages, the delay is **12 seconds**
-- For messages with media, it's calculated dynamically; formula is `Math.max(6, (int) Math.ceil(fileSize / 1024.0f / 1024.0f * 4.5f));`, where `fileSize` is a file size in bytes.
+-	Для простых текстовых сообщений задержка составляет **12 секунд**.
+-	Для сообщений с мультимедиа она рассчитывается динамически; формула — `Math.max(6, (int) Math.ceil(fileSize / 1024.0f / 1024.0f * 4.5f));`, где `fileSize` - размер файла в байтах.
 
-It can be quite buggy sometimes, and it's still not perfect. *But well, it works.*
+Иногда может сильно глючить и она все еще не идеальна. *Но, в целом, работает.*
 
-Don't use on bad networks, or with a high ping.
+Не используйте на слабых сетях или при высоком пинге.
 
-## Alert Before Opening Story
+## Предлагать призрака для сторис
 
-Show a simple alert before opening any story, suggesting that you enable **Ghost Mode**. If you tap anywhere outside the box, it'll disappear without opening a story.
+Перед открытием любой истории показывает простое предупреждение, предлагающее включить **Режим Призрак**. Если нажать вне окна, оно пропадет без открытия истории.
 
-## Local Telegram Premium
+## Локальный Telegram Premium
 
-Activates client-side premium features.
+Активирует клиентские премиум функции.
 
-It won't increase your [limits](https://limits.tginfo.me/en) on pin amount, caption length, etc.
+Оно не увеличит ваши [лимиты](https://limits.tginfo.me/en) по количеству закрепов, длине подписей и т.д.
 
 !!! Android
-You may choose emoji status, quote's & profile's color & icon.
+Вы можете выбрать эмоджи статус, цвет и иконку цитат и профиля.
 !!!
