@@ -3,33 +3,33 @@ icon: device-desktop
 order: -4
 ---
 
-# AyuGram for Desktop
+# AyuGram для ПК
 
-## Features
+## Функции
 
-- Ghost Mode
-- Messages History
-- Anti-Recall
-- Ad-Free by Default
-- No Copy & Download Restrictions by Default
-- Local Telegram Premium
-- Up to 100 Recent Stickers
-- Show Peer ID in Profile
-- Mono Font Customization
-- Application Icon Picker
-- Useful Context Menu Items & Its Customization
-- Colorful Replies & Quotes Removal
-- Similar Channels Removal
-- Folder Notification Counters Removal
-- "All Chats" Folder Removal
-- Message Details with Sticker and Emoji Pack Author
-- GIF Media Controls
-- Service Message Time
-- Voice & Round Video Messages Seeking
-- Top Center Notifications
-- Buttons to Read All Dialogs
-- Inline Button Callback View & Copy
-- Streamer Mode
-- Message Shot
-- Material Design Switches with Smooth Animation
-- Fixed Message Tails for a Group of Text/Sticker/Rounded Messages
+-	Режим призрака
+-	История сообщений
+-	Anti-recall
+-	По умолчанию без рекламы
+-	По умолчанию нет ограничений на копирование и скачивание
+-	Локальный Telegram Premium
+-	До 100 недавних стикеров
+-	Отображение ID пользователя в профиле
+-	Настройка шрифта
+-	Выбор иконок приложения
+-	Полезные пункты контекстного меню и их настройка
+-	Удаление цветных ответов и цитат
+-	Удаление похожих каналов
+-	Удаление счетчиков уведомлений в папках
+-	Удаление папки "Все чаты"
+-	Детали сообщения со ссылкой на автора стикер и эмоджипака
+-	Управление GIF-медиафайлами
+-	Время служебных сообщений
+-	Поиск голосовых и кружков
+-	Уведомления сверху по центру
+-	Кнопки для чтения всех диалогов
+-	Просмотр и копирование ссылок инлайн-кнопок
+-	Режим стримера
+-	Снимок сообщения
+-	Material Design переключатели с плавной анимацией
+-	Исправлены окончания сообщений для группы стикеров/кружков/текстовых сообщений
