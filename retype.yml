@@ -5,9 +5,9 @@ branding:
   title: AyuGram
   label: Docs
 links:
-- text: Channel
+- text: Канал
   link: https://t.me/ayugram1338
-- text: Forum
+- text: Форум
   link: https://t.me/ayugramchat
 integrations:
   plausible:
