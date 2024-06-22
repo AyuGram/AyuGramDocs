@@ -2,9 +2,9 @@
 icon: rss
 ---
 
-# Format
+# Формат
 
-Here's an example of AyuGram Filters export:
+Пример экспорта AyuGram Фильтров:
 
 ```json
 {
@@ -52,32 +52,31 @@ Here's an example of AyuGram Filters export:
 }
 ```
 
-Technically, you could create a well-maintained & curated list of filters for everybody's needs.
-Fields `removeExclusions` and `removeFiltersById` are not used by AyuGram's export feature - they're designed for use by list maintainers.
+Технически, вы можете создать легко поддерживаемый и курируемый список фильтров для всех желающих.
+Поля `removeExclusions` и `removeFiltersById` не используются функцией экспорта AyuGram - они предназначены для использования кураторами списков.
 
-## `removeExclusions` & `removeFiltersById`
+## `removeExclusions` и `removeFiltersById`
 
-Imagine you created a filter that should be removed; you could specify it in the `removeFiltersById` field. Next time, the user will try to import
-your list will get that filter deleted from his database.
+Представьте, что вы создали фильтр, который должен быть удален; вы можете указать его в поле `removeFiltersById`. В следующий раз, когда пользователь попытается импортировать ваш список, этот фильтр будет удален из его базы данных.
 
 ## `peers`
 
-It's known that there's no method to find channels and chats by their IDs, right?
+Всем известно, что не существует метода поиска каналов и чатов по их ID, да?
 
-Well, this field is just a workaround for that problem. When exporting filters, AyuGram will fill them automatically for public dialogs.
-As for private ones, you can specify an invite link.
-It's known to be buggy with these links (e.g., Telegram servers won't return the required `chat` field most of the time, so still no `access_hash`), but better than nothing.
+Так вот, это поле - просто обходной путь для решения этой проблемы. При экспорте фильтров AyuGram будет заполнять их автоматически для публичных диалогов.
+Для приватных вы можете указать ссылку на приглашение.
+Известно, что с этими ссылками есть баги (например, серверы Telegram чаще всего не возвращают нужное поле `chat`, поэтому `access_hash` всё равно не будет), но это лучше, чем ничего.
 
-Keys in this field could be either numbers or strings. Both work fine.
+Ключи в этом поле могут быть как числами, так и строками. Оба варианта отлично работают.
 
 ## `version`
 
-Specifies the AyuGram Filters export version. At the moment, it's `1`.
+Указывает версию экспорта AyuGram Фильтров. На данный момент версия `1`.
 
-## Notes
+## Заметки
 
-Worth noticing that:
+Стоит заметить, что:
 
-- all filter IDs are GUIDs
-- not including peers won't mark the backup as invalid
-- removing nonexistent exclusions or filters won't mark a backup as invalid
+-	все ID фильтров являются GUID
+-	невключение peers не сломает резервную копию
+- удаление несуществующих исключений или фильтров не сломает резервную копию
