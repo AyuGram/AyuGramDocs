@@ -3,30 +3,30 @@ icon: bug
 order: -6
 ---
 
-# Debug Actions
+# Действия для отладки
 
 ## Force show download buttons
 
-Shows "Save to Gallery" & "Save to Downloads" buttons on any media.
+Показывает кнопки "Сохранить в галерею" и "Сохранить в Загрузки" на любом медиафайле.
 
 ## Peek online using other accounts
 
-As the title says.
+Как и сказано в названии.
 
 ## FCM available
 
-Shows whenever FCM notifications are available for current installation.
+Показывает, доступны ли уведомления FCM для текущей сборки.
 
 ## FCM token
 
-As the title says.
+Как и сказано в названии.
 
-## FCM notifications count
+## Количество FCM-уведомлений
 
-Lets you make sure that FCM is working.
+Позволяет убедиться, что FCM работает.
 
-## Enable WAL mode
+## Включить WAL режим
 
-More about SQLite WAL **[here](https://www.sqlite.org/wal.html)**.
+Подробнее о SQLite WAL **[здесь](https://www.sqlite.org/wal.html)**.
 
-*Shortly*, disabling this option lets you free some memory, **losing client stability**.
+*Если коротко*, отключение этой опции позволяет освободить память, но **уменьшает стабильность клиента**.
