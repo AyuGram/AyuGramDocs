@@ -2,73 +2,73 @@
 icon: star
 ---
 
-# Features
+# Особенности
 
-## Register URL Scheme (in three dots)
+## Ассоциировать ссылки с AyuGram (в трех точках)
 
-Associates Telegram links to be open in AyuGram Desktop.
+Ассоциирует ссылки Telegram для открытия в AyuGram Desktop.
 
-## Message Shot
+##Снимок сообщения
 
-Select a few messages, and on the top bar there will be a "Shot" button.
+Выберите несколько сообщений, и на верхней панели появится кнопка "Снимок".
 
-Allows you to quickly create *screenshots* of messages with desired theming and options.
+Позволяет быстро создавать скриншоты сообщений с нужными оформлением и опциями.
 
-## Disable similar channels
+## Отключить похожие каналы
 
-### Collapse similar channels
+### Свернуть похожие каналы
 
-Collapses recommendations block by default (upon joining a channel) 
+По умолчанию сворачивает блок рекомендаций (при присоединении к каналу)
 
-### Hide similar channels tab
+### Скрыть вкладку похожих каналов
 
-Removes similar channels tab from UI.
+Удаляет вкладку похожих каналов из пользовательского интерфейса.
 
-## Disable notify delay
+## Отключить задержку уведомлений
 
-*Notification delaying is a Telegram built-in function that delays notifications on the current client instance if you're online from another client.*
+Задержка уведомлений — это встроенная функция Telegram, которая задерживает уведомления на текущем клиенте, если вы находитесь в сети с другого клиента.
 
-You can disable it if you want.
+Вы можете отключить ее, если хотите.
 
-## Icon Picker
+##Выбор иконки
 
-Lets you change application's icon, just like on **Android**.
+Позволяет изменить иконку приложения, как на Android.
 
-!!! Windows note
-If it doesn't change the taskbar icon when AyuGram is pinned, make sure the created shortcut named `AyuGram.lnk` or `AyuGram Desktop.lnk`.
+!!! Примечание для Windows
+Если иконка на панели задач не меняется, убедитесь, что созданный ярлык называется AyuGram.lnk или AyuGram Desktop.lnk.
 !!!
 
 !!!
-On Windows, you can provide your own icon, by replacing `%appdata%/AyuGram.ico`.
+На Windows вы можете установить свою иконку, заменив `%appdata%/AyuGram.ico`.
 !!!
 
-## Hide notification counters
+## Скрыть счетчики уведомлений
 
-Removes count badges on the folders.
+Удаляет значки счетчиков на папках.
 
-## Hide "All chats" folder
+## Скрыть папку "Все чаты"
 
-As the title says.
+Как и сказано в названии.
 
-Implementation taken from **64Gram**.
+Реализация взята из **64Gram**.
 
-## Context Menu Elements
+## Элементы контекстного меню
 
-Lets you change AyuGram's menu items.
+Позволяет изменять пункты меню AyuGram.
 
-Choosing "Extended menu" for an option means you'll have to press CTRL or SHIFT when opening context menu to see that.
+Выбор опции "В расширенное" означает, что нужно нажать CTRL или SHIFT при открытии контекстного меню, чтобы увидеть этот элемент.
 
-## Mono Font
+## Шрифт кода
 
-Which font to use for mono text.
+Какой шрифт использовать для кода.
 
-## Confirmations
+## Подтверждения
 
-Simply show a box with confirmation before sending a message.
+Просто показывает окно с подтверждением перед отправкой сообщения.
 
-## Streamer Mode
+## Режим стримера
 
-This one hides AyuGram windows and notifications from capture apps. It means that you can enable screensharing (e.g. in Discord) and nobody will see your messages and dialogs.
-Depending on Windows' mood, it'll be displayed either as a black box or as 'nothing'. literally.
+Скрывает окно AyuGram и уведомления от приложений захвата. Если вы будете транслировать свой экран (например, в Discord), то никто не увидит ваши сообщения и диалоги.
+В зависимости от настроения Windows будет показываться либо черный прямоугольник, либо 'ничего'. буквально.
 
-Context menus are still visible.
+Контекстные меню всё ещё видны.
