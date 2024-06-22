@@ -3,75 +3,74 @@ icon: project-roadmap
 order: -3
 ---
 
-# Filters
-
-Filters **completely** hide messages from your view in chat. They're available in chats and channels.
+# Фильтры
+Фильтры **полностью** скрывают сообщения от вашего взгляда в чате. Они доступны в чатах и каналах.
 
 !!!
-*Technically*, it's still visible—0 opacity, it's full in width and 1px in height. But the media is not downloaded.
+*Технически* они по-прежнему видны - непрозрачность 0, полная ширина и 1px в высоту. Но медиафайлы не загружаются.
 
-Also, if the last message in the dialog is filtered, it's blurred in a dialog list.
+Кроме того, если последнее сообщение в диалоге отфильтровано, оно размывается в списке диалогов.
 !!!
 
-You can *quickly* add a filter to current chat or to global by selecting some text in a message and clicking "Add filter".
+Вы можете *быстро* добавить фильтр в текущий чат или в глобальный, выделив текст в сообщении и нажав "Добавить фильтр".
 
-## Hide from Blocked Users
+## Скрытие от заблокированных пользователей
 
-As the title says, this feature will hide all messages from **blocked users**.
+Как и говорит название, эта функция скрывает все сообщения от **заблокированных пользователей**.
 
-- You won't see their messages, reactions and typing status
-- User won't be shown in the chat member list
+-	Вы не увидите их сообщения, реакции и статус набора текста.
+-	Пользователь не будет отображаться в списке участников чата.
 
-*To block a user, go to user's profile > three dots > Block user.*
+*Чтобы заблокировать пользователя, перейдите в профиль пользователя > три точки > Заблокировать пользователя.*
 
-## Enable Shared Filters in Chats
+## Включить общие фильтры в чатах
 
-As the title says.
+Буквально.
 
-## Filters by chats
+## Фильтры по чатам
 
-### Shared Filters
+### Общие фильтры
 
-These are enabled across all channels (and chats if enabled).
+Они работают во всех каналах (и чатах, если включено).
 
-### Where's Others?
+### Где остальные?
 
-Click on **"+"** in the top right corner and select desired chat.
+Нажмите на три точки в правом верхнем углу > **Выбрать чат**, выберите нужный чат и нажмите **«+»** в верхнем правом углу.
 
-### Excluded Filters
+### Исключенные фильтры
 
-You can exclude specific shared filter(s) by clicking on a button next to **"+"**.
+Чтобы отключить общий фильтр для конкретного чата, нужно перейти в фильтры нужного чата, нажать на **глобус** в верхнем правом углу и выбрать фильтр, который хотите исключить.
 
-## Deep Link for Import
+## Диплинк для импорта
 
-`tg://ayu/filters/import/URL`, where `URL` - URL without protocol.
+`tg://ayu/filters/import/URL`, где `URL` - URL без протокола.
 
-Example: `tg://ayu/filters/import/dpaste.com/H4EN4D8C4.txt`
+Пример: `tg://ayu/filters/import/dpaste.com/H4EN4D8C4.txt`
 
-For security reasons, deep link works only with `dpaste.com`, `gist.githubusercontent.com` (raw `gist.github.com`), `pastebin.com` & `nekobin.com`.
+В целях безопасности диплинк работает только с `dpaste.com`, `gist.githubusercontent.com`, `pastebin.com` и `nekobin.com`.
 
-## How to Write a Filter
+## Как написать фильтр
 
-All filters are **Java regular expressions**. You need to have knowledge in regex language to write complex expressions.
+Все фильтры представляют собой **регулярные выражения на Java**. Для написания сложных выражений вам понадобятся знания языка regex.
 
-*However*, if you need just to block messages that contain a specific word, or maybe a hashtag, you can just specify it, without any changes.
+*Однако* если вам нужно просто заблокировать сообщения, содержащие определенное слово или хэштег, вы можете просто указать его без каких-либо изменений.
 
-You can filter out all messages with buttons by looking for a tag `<button>` in a text. It will also contain a link, if it's a link button.
+Вы можете отфильтровать все сообщения с кнопками, найдя в тексте тег <button>. Он также будет содержать ссылку, если это кнопка-ссылка.
 
-Also, you can filter messages by its type. The type is written in format of `<type>CONST</type>`, where `CONST` is a constant value from [this](https://github.com/DrKLO/Telegram/blob/d62d2ed5ec2e1c565f771edce40f8340ab085a9b/TMessagesProj/src/main/java/org/telegram/messenger/MessageObject.java#L101) list.
+Также можно отфильтровать сообщения по их типу. Тип записывается в формате <type>CONST</type>, где CONST - постоянная из [этого](https://github.com/DrKLO/Telegram/blob/d62d2ed5ec2e1c565f771edce40f8340ab085a9b/TMessagesProj/src/main/java/org/telegram/messenger/MessageObject.java#L101) списка.
 
-Example text that regular expression will get to process for a text message with 2 buttons:
+Пример текста, который регулярное выражение получит для обработки текстового сообщения с 2 кнопками:
 
 ```
-How's it going, bro?
+Как дела, братан?
 
-<button>Nice</button>
-<button>Meh</button>
+<button>Круто</button>
+<button>Так себе</button>
 
 <type>0</type>
 ```
 
 
 !!!
-There's a cool website named [regex101.com](https://regex101.com) where you can test and debug your expressions.
+Вы можете тестировать свои регулярные выражения на [regex101.com](https://regex101.com).
 !!!
