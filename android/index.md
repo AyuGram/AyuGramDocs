@@ -3,48 +3,47 @@ icon: device-mobile
 order: -3
 ---
 
-# AyuGram for Android
+# AyuGram для Android
 
-**AyuGram4A** is a fork of **[exteraGram](https://github.com/exteraSquad/exteraGram)** with ToS breaking features.
-These can't be implemented in **exteraGram** directly, because **exteraSquad** will lose their API keys.
+**AyuGram4A** - это форк **[exteraGram](https://github.com/exteraSquad/exteraGram)** с нарушающими ToS функциями.
+Они не могут быть реализованы в **exteraGram** напрямую, потому что **exteraSquad** потеряет свои API-ключи.
 
-### Which one should I use?
+### Что мне выбрать?
 
-**AyuGram** shares the same codebase with **exteraGram**.
+**AyuGram** имеет одну основу кода с **exteraGram**.
 
-With **exteraGram** you'll get frequent and fast updates. It's more stable.
+С **exteraGram** вы получите частые и быстрые обновления. Он стабильнее.
 
-With **AyuGram** you'll get ToS breaking features, no more.
+С **AyuGram** вы получите нарушающие ToS функции, не больше.
 
-## Main Features
+## Основные функции
 
-- Ghost Mode
-- Messages History
-- Message Filters (Hide Ads & Blocked Users)
-- Forward from Restricted Channels (AyuForward)
-- Local Telegram Premium
+- Режим призрака
+- История сообщений
+- Фильтры сообщений (Скрытие рекламы и пользователей в ЧС)
+- Пересылка из каналов, где это запрещено (AyuForward)
+- Локальный Telegram Premium
 
-## Small Things
+## Прочие функции
 
-- Built with Official Keys
-- Removed Telegram Ads & Proxy Sponsor
-- Screenshots in Secret Chats & for Secret Media
-- Expire Button for Expiring Photos and Videos
-- Banned or Kicked out Chats are Kept in Cache
+- Собран с использование официальных ключей
+- Убрана реклама Телеграма и спонсора проки
+- Скриншоты в Секретных чатах и для Секретных медиа
+- Кнопка Исчезновения для Исчезающих Фото и Видео
+- Сохранение в кеше чатов, где вас забанили/кикнули
 
-Note that we use **Crashlytics**.
-If you don't want to send crash reports or participate in analytics, you can disable it in **exteraGram Preferences**.
+Обратите внимание, что мы используем **Crashlytics**.
+Если вы не хотите отправлять отчеты об ошибках, вы можете отключить его в **настройках exteraGram**.
 
-## Localization
+## Перевод
 
-We have our own **[Crowdin](https://translate.ayugram.one)**.
+У нас есть свой собственный  **[Crowdin](https://translate.ayugram.one)**.
 
-But since **AyuGram** is based on **exteraGram**, also join their project
-at **[Crowdin](https://crowdin.com/project/exteralocales)**!
+Но так как **AyuGram** основан на  **exteraGram**, присоединяйтесь к их проекту на **[Crowdin](https://crowdin.com/project/exteralocales)**!
 
-## Credits
+## Особая благодарность
 
-- **[exteraGram](https://github.com/exteraSquad/exteraGram)** and all the **[exteraSquad](https://exteragram.app)**
+- **[exteraGram](https://github.com/exteraSquad/exteraGram)** и весь **[exteraSquad](https://exteragram.app)**
 - [Telegraher](https://github.com/nikitasius/Telegraher)
 - [Nekogram](https://gitlab.com/Nekogram/Nekogram)
 - [Telegram FOSS](https://github.com/Telegram-FOSS-Team/Telegram-FOSS)
